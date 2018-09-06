@@ -11,3 +11,9 @@ The code takes a list of images and transforms each image into 5 (this can be ch
 
 Code was apadted from: https://medium.com/@ksusorokina/image-classification-with-convolutional-neural-networks-496815db12a8
 and from: https://www.quora.com/How-can-I-read-multiple-images-in-Python-presented-in-a-folder
+
+Before transformation:
+![](https://i.imgur.com/3W8NmyM.jpg)
+
+After transformation:
+![](https://i.imgur.com/XbCZFbH.png)
