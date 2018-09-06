@@ -1,5 +1,5 @@
 # Keras_Transform_Images
-Script that transforms a folder of images thus making your dataset larger
+Script that transforms a folder of images. Each pictures is transformed into x number of transformations. Great for expanding a small dataset.
 
 In the script, simply add the name of your folder where your images are stored and similarly add the name of the folder where you want to save the transformed images.
 
