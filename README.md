@@ -13,7 +13,9 @@ Code was apadted from: https://medium.com/@ksusorokina/image-classification-with
 and from: https://www.quora.com/How-can-I-read-multiple-images-in-Python-presented-in-a-folder
 
 Before transformation:
+
 ![](https://i.imgur.com/3W8NmyM.jpg)
 
 After transformation:
+
 ![](https://i.imgur.com/XbCZFbH.png)
