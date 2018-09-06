@@ -12,7 +12,8 @@ datagen = ImageDataGenerator(
         fill_mode='nearest')
 
 # Generates an array with the images from the folder:
-img_dir = "pictures"
+
+img_dir = "pictures" # the image directory
 data_path = os.path.join(img_dir,'*g') 
 files = glob.glob(data_path)
 data = []
@@ -28,10 +29,10 @@ for j in data:
 
 # the .flow() command below generates batches of randomly transformed images
 # and saves the results to the `preview/` directory
+# the loop makes 5 transformations of each image, this can be changed setting the if i > 5: to any other number you wish
 
-# lige nu laver den 5 transformationer af hver. Dette kan indstilles:
-
-    i = 0
+    i = 0 
+    # the new folder directory is added in the save_to_dir:
     for batch in datagen.flow(x, batch_size=1, save_to_dir='transformed', save_prefix='el', save_format='jpeg'):
         i += 1
         if i > 5:
